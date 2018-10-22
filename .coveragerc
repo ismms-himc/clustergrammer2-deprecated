@@ -1,0 +1,2 @@
+[run]
+omit = clustergrammer2/tests/*
