@@ -61,7 +61,7 @@ cmdclass['jsdeps'] = combine_commands(
 
 setup_args = dict(
     name            = name,
-    description     = 'A custom Jupyter widget library built using the widget-ts-cookiecutter library'',
+    description     = 'A custom Jupyter widget library built using the widget-ts-cookiecutter library',
     version         = version,
     scripts         = glob(pjoin('scripts', '*')),
     cmdclass        = cmdclass,
