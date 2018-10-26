@@ -15,9 +15,9 @@ console.log(cgm_fun);
 import * as d3 from 'd3';
 console.log(d3)
 
-console.log('****************************')
-console.log('** working on publishing ** ')
-console.log('****************************')
+console.log('*********************************')
+console.log('** working on publishing 0.2.1 **')
+console.log('*********************************')
 
 export
 class ExampleModel extends DOMWidgetModel {
