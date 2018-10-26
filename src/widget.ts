@@ -9,7 +9,7 @@ import {
   MODULE_NAME, MODULE_VERSION
 } from './version';
 
-console.log('something!!!!!!!!!!!!!!!!!!!!!!')
+console.log('updating#############################')
 
 export
 class ExampleModel extends DOMWidgetModel {
@@ -21,7 +21,7 @@ class ExampleModel extends DOMWidgetModel {
       _view_name: ExampleModel.view_name,
       _view_module: ExampleModel.view_module,
       _view_module_version: ExampleModel.view_module_version,
-      value : 'Hello World'
+      value : 'Latest Hello World'
     };
   }
 
