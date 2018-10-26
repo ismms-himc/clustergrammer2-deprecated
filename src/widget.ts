@@ -16,6 +16,8 @@ import * as d3 from 'd3';
 console.log(d3)
 
 console.log('****************************')
+console.log('** working on publishing ** ')
+console.log('****************************')
 
 export
 class ExampleModel extends DOMWidgetModel {
@@ -61,13 +63,13 @@ class ExampleView extends DOMWidgetView {
   render() {
     this.value_changed();
     // this.model.on('change:value', this.value_changed, this);
-    console.log('NETWORK: ' + this.model.get('network'))
+    // console.log('NETWORK: ' + this.model.get('network'))
 
     var inst_network_string = this.model.get('network');
 
     var inst_network = JSON.parse(inst_network_string);
 
-    console.log(inst_network)
+    // console.log(inst_network)
 
     var container_name = this.cid;
 
