@@ -9,6 +9,7 @@ import {
   MODULE_NAME, MODULE_VERSION
 } from './version';
 
+console.log('something!!!!!!!!!!!!!!!!!!!!!!')
 
 export
 class ExampleModel extends DOMWidgetModel {
