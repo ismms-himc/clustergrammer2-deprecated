@@ -70,7 +70,36 @@ class ExampleView extends DOMWidgetView {
     console.log(inst_network)
 
     var container_name = this.cid;
+
+    // the cid appears to be the container id, which gives a unique view number
     console.log('container_name', container_name)
+
+    // widget-subarea appears to be limited to a width of ~960px in nbviewer
+    var inst_container = d3.select(this.el)
+        .append('div')
+        .classed('clustergrammer_glidget', true)
+        .attr('id', container_name)
+        .style('width', '900px')
+        .style('height', '1035px')
+        .style('border', '2px solid #eee');
+
+    var container_id = '#'+container_name;
+
+    console.log(container_name, inst_container, container_id);
+
+    var heatmap_width = 900;
+
+    // define arguments object
+    var args = {
+        'container_name': container_name,
+        'network': inst_network,
+        'viz_width' : heatmap_width,
+        'viz_height': heatmap_width
+    };
+
+    console.log(args);
+
+    setTimeout(make_viz, 10, args);
   }
 
   value_changed() {
