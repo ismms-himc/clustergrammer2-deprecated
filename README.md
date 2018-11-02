@@ -33,7 +33,19 @@ The release instructions from the [jupyter-widgets/widget-ts-cookiecutterREADME]
 This will build the bundle, then build the nbextension and labextension:
 
 ```
-  npm run watch
-  npm run build:all
+  $ npm run watch
+  $ npm run build:all
 
+```
+
+Next, bundle the python package using
+
+```
+  $ python setup.py sdist bdist_wheel
+```
+
+Then, upload the PYPI:
+
+```
+  $ twine upload dist/*
 ```
