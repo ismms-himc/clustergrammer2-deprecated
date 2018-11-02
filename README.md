@@ -29,5 +29,11 @@ jupyter labextension install @jupyter-widgets/jupyterlab-manager
 The release instructions from the [jupyter-widgets/widget-ts-cookiecutterREADME](https://github.com/jupyter-widgets/widget-ts-cookiecutter).
 
 #### Webpack
-npm run watch
-npm run build:labextension
+
+This will build the bundle, then build the nbextension and labextension:
+
+```
+  npm run watch
+  npm run build:all
+
+```
