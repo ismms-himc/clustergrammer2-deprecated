@@ -22,3 +22,12 @@ Or, if you use jupyterlab:
 pip install clustergrammer2
 jupyter labextension install @jupyter-widgets/jupyterlab-manager
 ```
+
+## Running Locally
+
+### widget-ts-cookiecutter release instructions
+The release instructions from the [jupyter-widgets/widget-ts-cookiecutterREADME](https://github.com/jupyter-widgets/widget-ts-cookiecutter).
+
+#### Webpack
+npm run watch
+npm run build:labextension

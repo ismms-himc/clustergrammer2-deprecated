@@ -12,6 +12,7 @@ clustergrammer2/__init__.py
 clustergrammer2/_frontend.py
 clustergrammer2/_version.py
 clustergrammer2/example.py
+clustergrammer2/labextension/clustergrammer2-0.2.2.tgz
 clustergrammer2/nbextension/__init__.py
 clustergrammer2/nbextension/static/extension.js
 clustergrammer2/nbextension/static/index.js
@@ -39,6 +40,7 @@ examples/introduction_nb.ipynb
 examples/rc_two_cats.txt
 examples/.ipynb_checkpoints/introduction_lab-checkpoint.ipynb
 examples/.ipynb_checkpoints/introduction_nb-checkpoint.ipynb
+src/.DS_Store
 src/clustergrammer-gl.d.ts
 src/extension.ts
 src/index.ts
