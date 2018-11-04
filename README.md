@@ -1,5 +1,5 @@
 
-# clustergrammer2
+# clustergrammer2-deprecated
 
 [![Build Status](https://travis-ci.org/ismms-himc/clustergrammer2.svg?branch=master)](https://travis-ci.org/ismms-himc/clustergrammer2)
 [![codecov](https://codecov.io/gh/ismms-himc/clustergrammer2/branch/master/graph/badge.svg)](https://codecov.io/gh/ismms-himc/clustergrammer2)
@@ -54,3 +54,6 @@ Then, upload the PYPI:
 ```
 $ twine upload dist/*
 ```
+
+### Embedding widget
+jupyter nbconvert --to html notebook.ipynb
